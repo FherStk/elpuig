@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original Author: Odoo  Community -->
+<!-- Original Source: https://github.com/odoo/odoo/blob/11.0/addons/account/views/account_menuitem.xml -->
+<!-- Edited by: Fernando Porrino Serrano  -->
+
+<odoo>
+  <data>    
+    <menuitem id="menu_finance_legal_statement" name="PDF Reports" parent="account.menu_finance_reports" sequence="1">
+      <menuitem
+        id="menu_print_journal"
+        name="Journals Audit"
+        action="action_account_print_journal_menu"
+        groups="account.group_account_manager,account.group_account_user"
+        sequence="1"
+      />
+    </menuitem>    
+  </data>
+</odoo>
