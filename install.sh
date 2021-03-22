@@ -13,7 +13,7 @@ sudo apt install git -y
 echo ""
 
 echo "Downloading the module:"
-git clone https://github.com/FherStk/journals_audit_enabler.git /usr/lib/python3/dist-packages/odoo/addons
+git clone https://github.com/FherStk/journals_audit_enabler.git /usr/lib/python3/dist-packages/odoo/addons/journals_audit_enabler
 echo ""
 
 echo "Installing the module:"
