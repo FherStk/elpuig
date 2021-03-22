@@ -17,7 +17,7 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Invoicing',
-    'version': '1.1',
+    'version': '1.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
@@ -25,10 +25,10 @@
 
     # always loaded
     'data': [
-        'views/views.xml',
         'wizard/account_report_print_journal_view.xml',
-    ],  
+        'views/views.xml',        
+    ],
     'installable': True,
-    'application': False,
-    'auto_install': True
+    'application': True,
+    'auto_install': False,
 }
