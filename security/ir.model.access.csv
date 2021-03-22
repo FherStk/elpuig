@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_elpuig_elpuig,elpuig.elpuig,model_elpuig_elpuig,base.group_user,1,1,1,1
+access_journals_audit_enabler_account_print_journal,account.account_print_journal,model_account_print_journal,account.group_account_invoice,1,0,0,0

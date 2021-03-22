@@ -25,6 +25,7 @@
 
     # always loaded
     'data': [
+        'security/ir.model.access.csv',
         'wizard/account_report_print_journal_view.xml',
         'views/views.xml',        
     ],
