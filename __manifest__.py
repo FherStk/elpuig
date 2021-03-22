@@ -29,7 +29,7 @@
         'wizard/account_report_print_journal_view.xml',
         'views/views.xml',        
     ],
-    'installable': True,
-    'application': True,
-    'auto_install': False,
+    'installable': False,
+    'application': False,
+    'auto_install': True,
 }
