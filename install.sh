@@ -21,4 +21,4 @@ echo "Installing the module:"
 sudo service odoo restart
 echo ""
 
-echo "The module has been succesfully installed, check the 'PDF Reports' secction within 'Invoice/Reports'."
+echo "The module has been succesfully added to Odoo. Please, refresh the app list and install it manually."
